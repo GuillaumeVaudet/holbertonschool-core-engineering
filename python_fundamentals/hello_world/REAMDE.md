@@ -21,6 +21,14 @@ This project is about how **Python** executes code and to understand expression 
 ./structured_output.py
 ```
 
+## Leaerning Objectives
+- Distinguish between expressions and statements in the interpreter
+- Predict when output will appear automatically in interactive mode
+- Crerate a portable, executable Python script
+- Install and use a development tool via `pip`
+- Explain the difference between global installations and isolated environments
+- Demonstrate dependency isolation using `venv`
+
 ## Scripts Descriptions
 - [`structured_output.py`](./structured_output.py): Prints exactly
 ```bash
