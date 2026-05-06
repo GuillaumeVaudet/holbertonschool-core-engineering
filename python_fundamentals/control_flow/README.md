@@ -40,4 +40,5 @@ number = __import__('random').randint(-10, 10)
 ```python
 number = __import__('random').randint(-10000, 10000)
 ```
+-[`print_alphabt.py`](./print_alphabt.py): Prints the lowercase except for `q` and `e`
 
