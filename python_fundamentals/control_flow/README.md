@@ -41,4 +41,5 @@ number = __import__('random').randint(-10, 10)
 number = __import__('random').randint(-10000, 10000)
 ```
 -[`print_alphabt.py`](./print_alphabt.py): Prints the lowercase except for `q` and `e`
+-[`print_hexa.py`](./print_hexa.py): Prints numbers form 0 to 98 in decimal and hexadecimal
 
