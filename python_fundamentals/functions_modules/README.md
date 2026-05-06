@@ -1,4 +1,4 @@
-# Python_fundamentals - control_flow
+# Python_fundamentals - function & modularity
 
 THis project is about function definition and return values, execution flow inside and outside functions, separation between printing and returning, how python executes a file, how importing a file affects execution, and how to reuse functions and variables across files.
 
