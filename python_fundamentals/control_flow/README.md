@@ -42,4 +42,7 @@ number = __import__('random').randint(-10000, 10000)
 ```
 -[`print_alphabt.py`](./print_alphabt.py): Prints the lowercase except for `q` and `e`
 -[`print_hexa.py`](./print_hexa.py): Prints numbers form 0 to 98 in decimal and hexadecimal
+	- We can only use **one** `print` function with string format
+	- We can only use **one loop** in our code
+	- We are not allowed to store numbers or strings in a variable
 
