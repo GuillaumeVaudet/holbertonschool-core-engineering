@@ -32,7 +32,12 @@ This project is about how to manage and execute different code depending on cond
 - Combine conditions and loops to produce deterministic output
 
 ## Scrips Descriptions
-- [`positive_or_negative.py`](./positive_or_negative.py): Assigns a random integer to a variable named `number`. This line is given for this specific exercice:
+- [`positive_or_negative.py`](./positive_or_negative.py): Prints specific sentences depending on the sign of the generated number. This line is given for this exercice:
 ```python
 number = __import__('random').randint(-10, 10)
 ```
+- [`last_digit.py`](./last_digit.py): Prints specific sentences depending on the last digit of the generated number. THis line is given for this exercice:
+```python
+number = __import__('random').randint(-10000, 10000)
+```
+
