@@ -29,8 +29,14 @@ THis project is about function definition and return values, execution flow insi
 - Write scripts that behave correctly when executed and when imported
 
 ## Scripts Descriptions
-- [`islower.py`](./islower.py): The function must return `True` if `c` is a lowercase letter and `False`otherwise
+- [`islower.py`](./islower.py): The function returns `True` if `c` is a lowercase letter and `False`otherwise
     - Task requirements:
         - We are not allowed to use built-in string methodes such as `.islower()`
         - We must use ASCII logic (`ord()`)
         - The function must return a boolean value
+- [`uppercase.py`](./uppercase.py): The function prints the string in uppercase followed by a new line
+    - Task requirement:
+        - We are not allowed to use `.upper()`
+        - We must use ASCII conversion (`ord()` and `chr()`)
+        - The function must print the result directly
+        - The function does not return a value
