@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
-i = 97
+i = ord('a')
 
-while (i <= 122):
-    if (i != 101 and i != 113):
-        print(chr(i), end="")
+while (i <= ord('z')):
+    if (i != ord('e') and i != ord('q')):
+        print(f"{chr(i)}", end="")
     i += 1
 
+print()
