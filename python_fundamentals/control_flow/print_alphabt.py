@@ -4,7 +4,7 @@ i = ord('a')
 
 while (i <= ord('z')):
     if (i != ord('e') and i != ord('q')):
-        print(f"{chr(i)}", end="")
+        print("{}".format(chr(i)), end="")
     i += 1
 
 print()
