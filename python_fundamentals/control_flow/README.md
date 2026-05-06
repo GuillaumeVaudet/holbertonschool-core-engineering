@@ -51,12 +51,20 @@ Example beginning:
 ```bash
 00, 01, 02, 03, ...
 ```
-- Task requirements
-	- Correct formatting with leading zeros
-	- No trailing comma
-	- Exact spacing
-	- The last number should be followed by a new line
-	- We can only use **no more** than 2 `print` functions with string format
-	- We can only use **one loop** in our code
-	- We are not allowed to store numbers or strings in a variable
+	- Task requirements
+		- Correct formatting with leading zeros
+		- No trailing comma
+		- Exact spacing
+		- The last number should be followed by a new line
+		- We can only use **no more** than 2 `print` functions with string format
+		- We can only use **one loop** in our code
+		- We are not allowed to store numbers or strings in a variable
 
+- [`print_comb3.py`](./print_comb3.py): Prints all unique combinations of two different digits from 0 to 9
+	- Task requirements
+		- Digits must be different
+		- Combinations must be printed in scending order.(Print only the smallest combination of two digits)
+		- Format: `01, 02, 03, ..., 89` (Numbers must be separated by `,` followed by a space)
+		- No repetion ("01" and "10" are the same combination of digits)
+		- We can only use no more than 3 `print` functions with string format
+		- We can only use no more than 2 loops in our code
