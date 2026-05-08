@@ -49,3 +49,8 @@ THis project is about function definition and return values, execution flow insi
         - We are not allowed to use the built-in exponent operator `**`
         - We are not allowed to import modules
         - We must implement the logic man,ually using a loop
+- [`add.py`](./add.py): Imports the function `add()` from the file `add_0.py` and prints the result of the addition `1 + 2 = 3`
+    - Task requirements:
+        - We are not allowed to use `*` for importing
+        - We are not allowed to use `__import__`
+        - The program must not execute when imported
