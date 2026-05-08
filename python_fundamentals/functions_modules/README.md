@@ -44,3 +44,8 @@ THis project is about function definition and return values, execution flow insi
     - Print the last digit of `number`
     - Return the value of the last digit
     - The last digit must be positive
+- [`pow.py`](pow.py): The function must return the value of `a` raised to the power of `b`
+    - Task requirements:
+        - We are not allowed to use the built-in exponent operator `**`
+        - We are not allowed to import modules
+        - We must implement the logic man,ually using a loop
