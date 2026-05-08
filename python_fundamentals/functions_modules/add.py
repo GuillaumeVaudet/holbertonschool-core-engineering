@@ -7,7 +7,8 @@ def addition():
     """Resolve addition of 1 and 2 using the add function from add_0.py"""
     a = 1
     b = 2
-    print("{} + {} = {}".format(a, b, add(a, b)))
+    result = add(a, b)
+    print("{} + {} = {}".format(a, b, result))
 
 
 if __name__ == "__main__":
