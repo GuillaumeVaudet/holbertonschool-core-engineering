@@ -40,3 +40,7 @@ THis project is about function definition and return values, execution flow insi
         - We must use ASCII conversion (`ord()` and `chr()`)
         - The function must print the result directly
         - The function does not return a value
+- [`print_last_digit.py`](./print_last_digit.py): The function must:
+    - Print the last digit of `number`
+    - Return the value of the last digit
+    - The last digit must be positive
