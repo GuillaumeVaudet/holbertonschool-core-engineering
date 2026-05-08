@@ -64,3 +64,7 @@ Each operation must be printed on its own line
     - Task requirements:
         - We are not allowed to use * for importing
         - The program must not execute when imported
+- [`variable_load.py](./variable_load.py): Imports the variable `a` from `variable_load_5.py` and prints its value
+    - Task requirements
+        - We are not allowed to use `*`
+        - The program must not execute when imported
