@@ -4,7 +4,7 @@ from add_0 import add
 
 
 def addition():
-    """Resolve addition of 1 and 2 using the add function from add_0.py"""
+    """use the function add to resolve an addition"""
     a = 1
     b = 2
     result = add(a, b)
