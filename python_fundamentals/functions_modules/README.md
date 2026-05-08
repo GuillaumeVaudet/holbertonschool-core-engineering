@@ -54,3 +54,13 @@ THis project is about function definition and return values, execution flow insi
         - We are not allowed to use `*` for importing
         - We are not allowed to use `__import__`
         - The program must not execute when imported
+- [`calculation.py`](./calculation.py): Imports functions from `calculator_1.py` and prints the result of: 
+    - addition
+    - substraction
+    - multiplication
+    - division
+
+Each operation must be printed on its own line
+    - Task requirements:
+        - We are not allowed to use * for importing
+        - The program must not execute when imported
