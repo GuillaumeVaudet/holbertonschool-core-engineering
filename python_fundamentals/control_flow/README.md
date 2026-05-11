@@ -31,7 +31,7 @@ This project is about how to manage and execute different code depending on cond
 - Generate formatted output using numeric iteration
 - Combine conditions and loops to produce deterministic output
 
-## Scrips Descriptions
+## Scripts Descriptions
 - [`positive_or_negative.py`](./positive_or_negative.py): Prints specific sentences depending on the sign of the generated number. This line is given for this exercice:
 ```python
 number = __import__('random').randint(-10, 10)
