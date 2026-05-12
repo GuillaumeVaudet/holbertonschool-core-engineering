@@ -60,3 +60,6 @@ This project is about how Python handles runtime errors and how to manage them u
     - If any other exception occurs, print `"Inside result: None"`
     - Always print `"Inside result: <result>"` using `finally`
     - Return the result (or `None`)
+- [`raise_exception.py`](./raise_exception.py): The function raises a `TypeError`
+    - Prototype: `def raise_exception()`
+    - The function must raise a `TypeError`
