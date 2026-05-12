@@ -39,3 +39,10 @@ This project is about how Python handles runtime errors and how to manage them u
     - We have to use `try: / except:`
     - We are not allowed to import any module
     - We are notallowed to use `len()`
+-[`safe_print_integer.py`](./safe_print_integer.py): The function prints an integer with `"{:d}".format()` followed by a new line
+    - Prototype: `def safe_print_integer(value)`
+    - If `value` is an integer, print it and return `True`
+    - Otherwise, return `False`
+    - We have to use `try: / except:`
+    - We are not allowed to import any module
+    - We are not allowed to use `type()`
