@@ -54,3 +54,9 @@ This project is about how Python handles runtime errors and how to manage them u
     - All integers have to be printed on the same line followed by a new line
     - `my_list` can contain any type (integer, string, etc)
     - We have to use `try: / except`
+- [`safe_print_division.py`](./safe_print_division.py): The function divides two integers
+    - Prototype: `def safe_print_division(a, b)`
+    - Perform the division inside a `try` block
+    - If any other exception occurs, print `"Inside result: None"`
+    - Always print `"Inside result: <result>"` using `finally`
+    - Return the result (or `None`)
