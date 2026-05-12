@@ -1,9 +1,9 @@
 # Python_fundamentals - function & modularity
 
-THis project is about function definition and return values, execution flow inside and outside functions, separation between printing and returning, how python executes a file, how importing a file affects execution, and how to reuse functions and variables across files.
+This project is about function definition and return values, execution flow inside and outside functions, separation between printing and returning, how python executes a file, how importing a file affects execution, and how to reuse functions and variables across files.
 
 ## Requirements
-- Correction will run on **Ubuntu 10.04 LTS**
+- Correction will run on **Ubuntu 20.04 LTS**
 - Python version used for correction: **Python 3.8.x**
 - The first line of every Python file must be exactly:
 ```Python
