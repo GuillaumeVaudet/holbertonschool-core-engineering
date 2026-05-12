@@ -61,5 +61,14 @@ This repository serves as an introduction to the Python programming language and
 
 	**[`README.md`](./python_fundamentals/core_data_structures/README.md)**
 
+- `Exception Handling`
+	- Identify common runtime exceptions (TypeError, IndexError, ZeroDivisionError, KeyError)
+	- Use `try` and `except` blocks correctly
+	- Catch specific exception types rather than broad exceptions
+	- Use `else` and `finally` appropriately
+	- Raise exceptions explicitly when required
+	- Write functions that fail safely and predictably
+
+	**[`README.md`](./python_fundamentals/exception_handling/README.md)**
 ## Auhtors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
