@@ -1,10 +1,8 @@
-#!/usr/bin/env
+#!/usr/bin/env python3
 
 def raise_exception_msg(message=""):
-    try:
-        raise NameError
-    except NameError:
-        NameError(message)
+    """Raise a name error with a custom message"""
+    raise NameError(message)
 
 
 if __name__ == "__main__":
