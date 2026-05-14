@@ -63,3 +63,6 @@ This project is about how Python handles runtime errors and how to manage them u
 - [`raise_exception.py`](./raise_exception.py): The function raises a `TypeError`
     - Prototype: `def raise_exception()`
     - The function must raise a `TypeError`
+- [`raise_exception_msg.py`](./raise_exception_msg.py): The function raises a `NameError` with a custom message
+    - Prototype: `def raise_exception_msg(message=")`
+    - The function must raise a `NameError` with `message`
