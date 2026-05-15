@@ -66,3 +66,6 @@ This project is about how Python handles runtime errors and how to manage them u
 - [`raise_exception_msg.py`](./raise_exception_msg.py): The function raises a `NameError` with a custom message
     - Prototype: `def raise_exception_msg(message=")`
     - The function must raise a `NameError` with `message`
+
+## Authors
+- Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)

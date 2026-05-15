@@ -19,6 +19,8 @@ This repository serves as an introduction to the Python programming language and
 - Output must match expected formatting exactly
 
 ## Projects Descriptions (Learning Objectives)
+
+### Python Fundamentals:
 - `hello_world`: 
 	- Distinguish between expressions and statements in the interpreter
 	- Predict when output will appear automatically in interactive mode
@@ -70,5 +72,18 @@ This repository serves as an introduction to the Python programming language and
 	- Write functions that fail safely and predictably
 
 	**[`README.md`](./python_fundamentals/exception_handling/README.md)**
+
+### Python OOP:
+- `Classes And Object Model`:
+	- Explain the difference between a **class** and an **instance**
+	- Create classes that model simple entities
+	- Define and initialize instance attributes using `__init__`
+	- Implement instance methods that operate on object state
+	- Apply basic **encapsulation principles**
+	- Validate input when contructing objects
+	- Control access to internal attributes
+	- Implement string representations of objects using special methods
+	- Design simple classes that model real-worl concepts
+
 ## Auhtors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
