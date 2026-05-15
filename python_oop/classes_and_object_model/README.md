@@ -28,7 +28,7 @@ This project is about how to organize data and logic with Object-Oriented Progra
 - Design simple classes that model real-world concepts
 
 ## Scripts Descriptions
-- [``]
+- [`0-square.py`](./0-square.py): Contains a class named `Square` that represents a square (for this first version, the class does not need to contain any attributes or methods.)
 
 ## Authors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
