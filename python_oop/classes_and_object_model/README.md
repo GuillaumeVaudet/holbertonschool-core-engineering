@@ -37,5 +37,7 @@ This project is about how to organize data and logic with Object-Oriented Progra
     - `size` must be grater than or equal to 0. Otherwize raise a `ValueError` exception with the message `size must be >= 0`
 - [`3-square.py`](./3-square.py): Add an instance method `area(self)` to the `Square` class that return the area of the square based on it's `side` length
 - [`4-square.py`](./4-square.py): Add getters and setters for the `size` attribute in the `Square` class
+- [`5-square.py`](./5-square.py): Add a public instance method `def my_print(self)` that prints in stdout the square with the character `#`. If size is equal to 0, print an empty line
+
 ## Authors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
