@@ -48,6 +48,18 @@ This project is about how to organize data and logic with Object-Oriented Progra
         - If `size` is equal to 0, print an empty line
         - `position` should be use by using space
     - Printing a Square instance should have the same behavior as my_print()
+- [`1-rectangle`](./1-rectangle.py): Contains a class `Rectangle` with:
+    - Private instance attribute `width`
+    - Property `width(self)` to retrieve it
+    - Property setter `width(self, value)` to set it
+        - `width` must be an integer, otherwise raise a `TypeError` exception with this message `width must be an integer`
+        - if `width` is less than 0, raise a `ValueError` exception with the message `width must be >= 0`
+    - Private instance attribute `height`
+    - Property `height(self)` to retrieve it
+    - Property setter `height(self, value)` to set it
+        - `height` must be an integer, otherwise raise a `TypeError` exception with the message `height must be an integer`
+        - if `height` is less than 0, raise a `ValueError` exception with the message `height must be >= 0`
+    - Instantiation with optional `width` and `height` and default value of `0`.(`__init__(self, width=0, height=0)`)
 
 ## Authors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
