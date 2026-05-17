@@ -38,6 +38,16 @@ This project is about how to organize data and logic with Object-Oriented Progra
 - [`3-square.py`](./3-square.py): Add an instance method `area(self)` to the `Square` class that return the area of the square based on it's `side` length
 - [`4-square.py`](./4-square.py): Add getters and setters for the `size` attribute in the `Square` class
 - [`5-square.py`](./5-square.py): Add a public instance method `def my_print(self)` that prints in stdout the square with the character `#`. If size is equal to 0, print an empty line
+- [`6-square`](./6-square.py): Add an implement the special method `__str__()`
+    - Private instance attrivute: `position`:
+        - Property `def position(self)`: to retrieve it
+        - Property setter `def position(self, value)`: to set it
+            - Position must be a tuple of 2 positive integers, otherwise raise a `TypeError` exception with message `position must be a tuple of 2 positive integer`
+    - Instantiation with optional `size` and optional `position`: `def __init__(self, size=0, position=(0,0))`
+    - Public instance metho: `def my_print(self)`: that prints in stdout the square with character #:
+        - If `size` is equal to 0, print an empty line
+        - `position` should be use by using space
+    - Printing a Square instance should have the same behavior as my_print()
 
 ## Authors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
