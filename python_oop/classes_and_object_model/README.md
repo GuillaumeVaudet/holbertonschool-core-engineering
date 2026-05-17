@@ -35,5 +35,6 @@ This project is about how to organize data and logic with Object-Oriented Progra
 - [`2-square.py`](./2-square.py): Add validations to the `size` attribute on the `Square` class
     - `size` must be an integer, otherwize raise a `Typerror` exception with the message `size must be an integer`
     - `size` must be grater than or equal to 0. Otherwize raise a `ValueError` exception with the message `size must be >= 0`
+- [`3-square.py`](./3-square.py):Add an instance method `area(self)` to the `Square` class that return the area of the square based on it's `side` length
 ## Authors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
