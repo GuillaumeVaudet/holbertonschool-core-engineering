@@ -60,6 +60,10 @@ This project is about how to organize data and logic with Object-Oriented Progra
         - `height` must be an integer, otherwise raise a `TypeError` exception with the message `height must be an integer`
         - if `height` is less than 0, raise a `ValueError` exception with the message `height must be >= 0`
     - Instantiation with optional `width` and `height` and default value of `0`.(`__init__(self, width=0, height=0)`)
+-[`2-rectangle.py`](./2-rectangle.py): Implement behavior for the rectangle class:
+    - `area()` that returns the rectangle area
+    - `perimeter()` that returns the rectangle perimeter
+    - If `width` or `height` is equal to `0`, perimeter is equal to `0`
 
 ## Authors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
