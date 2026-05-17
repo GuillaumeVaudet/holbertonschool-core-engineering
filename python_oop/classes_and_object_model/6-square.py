@@ -4,8 +4,9 @@
 
 class Square:
     """Class to represent a square"""
-    def __init__(self, size=0):
+    def __init__(self, size=0, position=(0, 0)):
         self.size = size
+        self.position = position
 
     def area(self):
         return self.__size * self.__size
@@ -26,25 +27,41 @@ class Square:
         if self.size == 0:
             print()
         else:
-            for _ in range(self.size):
-                for _ in range(self.size):
-                    print('#', end="")
-                print()
+            print(self)
+
+    @property
+    def position(self):
+        return self.__position
+
+    @position.setter
+    def position(self, value):
+        if (not isinstance(value, tuple) or len(value) != 2 or
+                not isinstance(value[0], int) or
+                not isinstance(value[1], int) or value[0] < 0 or
+                value[1] < 0):
+            raise TypeError("position must be a tuple of 2 positive integer")
+        self.__position = value
+
+    def __str__(self):
+        if self.size == 0:
+            return ""
+
+        square = ""
+
+        square += "\n" * self.position[1]
+
+        for i in range(self.size):
+            square += (" " * self.position[0]) + ("#" * self.size)
+            if i < self.size - 1:
+                square += "\n"
+        return square
 
 
 if __name__ == "__main__":
-
-    my_square = Square(3)
-    my_square.my_print()
-
-    print("--")
-
-    my_square.size = 10
-    my_square.my_print()
+    my_square = Square(5, (0, 0))
+    print(my_square)
 
     print("--")
 
-    my_square.size = 0
-    my_square.my_print()
-
-    print("--")
+    my_square = Square(5, (4, 1))
+    print(my_square)
