@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Second class of the holberton course"""
 
+
 class Rectangle:
     """Class to represent a rectangle"""
     def __init__(self, width=0, height=0):
@@ -10,7 +11,7 @@ class Rectangle:
     @property
     def width(self):
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -22,7 +23,7 @@ class Rectangle:
     @property
     def height(self):
         return self.__height
-    
+
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
@@ -30,6 +31,7 @@ class Rectangle:
         if value < 0:
             raise ValueError('height must be >= 0')
         self.__height = value
+
 
 if __name__ == "__main__":
     my_rectangle = Rectangle(2, 4)
