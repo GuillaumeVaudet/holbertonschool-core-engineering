@@ -26,6 +26,13 @@ This project introduce to Python's input/output mechanisms focusing on file mani
     - We must use the `with` statement
     - We don't need to manage `file permission` or `file doesn't exist` exceptions
     - Wa are not allowed to import any module
+- [`write_file.py`](./write_file.py): The function writes a string to a text file (`UTF-8`) and returns the number of characters written:
+    - Prototype: `def write_file(filename="")`
+    - We must use the `with` statement
+    - We don't need to manage file permission exceptions
+    - Our function should create the file if doesn't exist
+    - Our function should overwritte the content of the file if it already exists
+    - We are not allowed to import any module
 
 ## Authors
 - Vaudet Guillaume [github profile](https://github.com/GuillaumeVaudet)
